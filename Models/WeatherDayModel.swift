@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+/// Codable: to use encode and decode
+struct WeatherDayModel : Codable {
+    /// let: used to declare constants
+    let day : String
+    let image : String
+    let temprature : Int
+}
